@@ -2,12 +2,8 @@
 
 This is just a demo folder with some dummy content.
 
-A quote:
+This is just a demo folder for testing purposes 
 
-> "I may not have gone where I intended to go,
-> But I think I have ended up where I needed to be."
->
-> Douglas Adams.
  
 
 An unordered list:
