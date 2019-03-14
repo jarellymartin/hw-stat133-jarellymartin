@@ -5,13 +5,13 @@ Jarelly Martin
 
 #### Introduction
 
-The Golden State Warriors are no strangers to winning as they are currently leading the Western Conference with a 45-21 record. Do they have what it takes to win this year’s NBA Champion and get away with another consecutive victory? But before we start looking forward to what the Golden State Warriors have in store for the next couple of months, let’s recap their past monumental seasons starting with 2015-2016.
+The Golden State Warriors are no strangers to winning as they are currently lead the Western Conference with a 45-21 record. Do they have what it takes to win this year’s NBA Champion and get away with another consecutive victory? But before we start looking forward to what the Golden State Warriors have in store for the next couple of months, let’s recap their past monumental seasons starting with 2015-2016.
 
 In their 2015-2016 season, Golden State broke records left and right. During this season they broke Chicago Bull’s 1995-1996 season record of 72-10 with their record of 73-9. Not to mention, they had the most road wins in a regular season, most three-pointers in a regular season, longest home winning streak, and many more!
 
 #### Motivation & Background
 
-Looking back at the Golden State Warrior’s 2015-2016 it is safe to say they were unstoppable. In this report, I will dive deep into the player’s shooting record using visuals and statistical analysis. In using a visual I was able to map the player’s shot on the court based on the given location and whether the shot was made or not. With the help of statistical analysis, I created three tables to indicate 2-point, 3-point, and overall effective shooting percentage for each player. Below you can see the data visualization and the three tables:
+Looking back at the Golden State Warrior’s 2015-2016 it is safe to say they were unstoppable. In this report, I will dive deep into the player’s shooting record using visuals and statistical analysis. In using visuals I was able to map the player’s shot location on the court and whether the shot was made or not. With the help of statistical analysis, I created three tables to indicate 2-point, 3-point, and overall effective shooting percentage for each player. Below you can see the data visualization and the three tables:
 
 #### Data & Data Analysis
 
@@ -19,9 +19,9 @@ I only had shooting data for the following Golden State Warrior players: Andre I
 
 First, let’s take a look at the facetted graphic below that showcases the shot, shot location, and if shot was made or not for each individual player.
 
-<img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" /> Looking at the shot map for each player we can see come considerable differences. In particular, Stephen Curry's shot map is representative of his style of play since he is famously known for his 3-pointers. Based on the map there's a lot of points across the 3-point line as appose to someone like Andre Iguodala who doesn't shoot as many 3-pointers. Another thing to notice is that a lot of Kevin Durant’s shots are concentrated inside the 3-point line and near the paint in comparison to the other four players.
+<img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" /> Looking at the shot map for each player we can see come considerable differences. In particular, Stephen Curry's shot map is representative of his style of play since he is famously known for his 3-pointers. Based on the map there's a lot of points across the 3-point line as appose to someone like Andre Iguodala who doesn't shoot as many 3-pointers. Another thing to notice is that a lot of Kevin Durant’s shots are concentrated inside the 3-point line and near the paint in comparison to the other four players. Even though they do not lead 3-pointers this doesn't take away from their abilities as star players. 
 
-Next, let’s take a look at the tables I made for -point, 3-point, and overall effective shooting percentage for each player.
+Next, let’s take a look at the tables below for 2-point, 3-point, and overall effective shooting percentage for each player.
 
 ``` r
 library(dplyr)
@@ -114,7 +114,7 @@ arrange(summarise(group_by(shots_data, name), total = length(shot_made_flag),
     ## 4 Stephen Curry   1250   584      46.7
     ## 5 Draymond Green   578   245      42.4
 
-Next, let’s take a look at the tables I made for 2-point, 3-point, and overall effective shooting percentage for each player. Based on the 2-point effective shooting percentage table, we can see that Andre Iguodala has the highest percentage, 63%, with the least number of shots attempted. Here, Kevin Durant comes at a close second where his 2-pointer shooting percentage is 60.7%. Now let’s take a look at the 3-pointer effective shooting percentage table. Even though Stephen Curry has the highest number of 3-pointer attempts, Klay Thompson beats him with the highest effective shooting percentage of 42.4%. Finally, let’s take a look at the overall shooting percentage and how it compares to 3-pointers and 2-pointers. It turns out that Kevin Durant leads for the highest percentage of shots made when looking at both 2-pointers and 3-pointers.
+Based on the 2-point effective shooting percentage table, we can see that Andre Iguodala has the highest percentage, 63%, with the least number of shots attempted. Here, Kevin Durant comes at a close second where his 2-pointer shooting percentage is 60.7%. Now let’s take a look at the 3-pointer effective shooting percentage table. Even though Stephen Curry has the highest number of 3-pointer attempts, Klay Thompson beats him with the highest effective shooting percentage of 42.4%. Finally, let’s take a look at the overall shooting percentage and how it compares to 3-pointers and 2-pointers. It turns out that Kevin Durant leads for the highest percentage of shots made when looking at both 2-pointers and 3-pointers.
 
 #### Conclusion
 
