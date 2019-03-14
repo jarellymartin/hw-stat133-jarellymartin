@@ -1,7 +1,7 @@
-#title: 
-#description: 
-#input(s):
-#output(s):
+#title: Shot Data Charts
+#description: created scatterplots to analyze shot data for each player
+#input(s): Data sets for each player
+#output(s): PDF and PNG files of each shot data scatterplot
 
 
 install.packages("jpeg")
