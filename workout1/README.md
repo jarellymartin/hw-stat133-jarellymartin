@@ -9,11 +9,11 @@ The purpose of Workout 1 is to visualize shot data for the Golden State Warriors
 
 ##### File Structure
 
--code: Includes scripts of shot charts for each player and data tables for each player
--data: Includes csv files for each player's shot data 
--images: Includes PDF, PNG, and JPG files of shot chart for each player
--output: Included summarys of each player's shot data
--report: Detailed report and analysis of shot charts and effective shooting percentage for GSW
+- code: Includes scripts of shot charts for each player and data tables for each player
+- data: Includes csv files for each player's shot data 
+- images: Includes PDF, PNG, and JPG files of shot chart for each player
+- output: Included summarys of each player's shot data
+- report: Detailed report and analysis of shot charts and effective shooting percentage for GSW
 
 #### Author 
 
