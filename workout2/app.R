@@ -44,21 +44,21 @@ ui <- fluidPage(
                        min = 1, max = 50,
                        value = 20)), 
     
-    column(5, sliderInput("annual",
+    column( width=4, sliderInput("annual",
                           "Annual Contribution",
                           min = 0, 
                           max = 50000,
                           value = 2000, 
                           step = 500)),
     
-    column(5, sliderInput("growth",
+    column(width =4, sliderInput("growth",
                           "Growth Rate (in %)",
                           min = 0, 
                           max =0.20,
                           value = 0.02, 
                           step = 0.01)),
     
-    column(5, selectInput("facet", "Facet?", c("Yes", "No"))
+    column(width=4,selectInput("facet", "Facet?", c("Yes", "No"))
   ), 
 
   
