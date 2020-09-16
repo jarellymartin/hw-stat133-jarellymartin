@@ -4,7 +4,7 @@
 
 #### Decription
 
-The purpose of Workout 1 is to visualize shot data for the Golden State Warriors (GSW) during the 2015-2016 season. I specifically looked at shot data for Stephen Curry, Andre Iguodala, Klay Thomspon, Kevin Durant, and Draymond Green using two methods of analysis: facetted shot chart visuals and tables to interpret their effective shooting percentage. More specifically, the goals of this assignment is to build our understanding of complex file structures, GitHub, and interpreting data visualizations. 
+The purpose of Workout 1 is to visualize shot data for the Golden State Warriors (GSW) during the 2015-2016 season. I specifically looked at shooting data for Stephen Curry, Andre Iguodala, Klay Thomspon, Kevin Durant, and Draymond Green using two methods of analysis: facetted shot chart visuals and tables to interpret their effective shooting percentage. More specifically, the goals for this assignment are to build our understanding of complex file structures, GitHub, and interpreting data visualizations.
 
 
 ##### File Structure
